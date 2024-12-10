@@ -1,5 +1,5 @@
 {
-  "name": "rpc",
+  "name": "simple-rpc",
   "version": "1.0.0",
   "main": "./lib/index.js",
   "license": "MIT",
