@@ -29,13 +29,13 @@ Error Response:
 
 ## Usage
 ```ts
-import { Server, handleReqeust } from 'simple-rpc'
+import { Router, handleReqeust } from 'simple-rpc'
 import { z } from 'zod'
 
-const server = new Server()
+const router = new Router()
 
-server.addRoute("ping", () => "pong")
-server.addRoute("schemaTest", (request) => request.data, z.string())
+router.addRoute("ping", () => "pong")
+router.addRoute("schemaTest", (request) => request.data, z.string())
 
 const request = {
     method: "ping"
