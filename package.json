@@ -23,5 +23,7 @@
     "eslint": "^9.16.0",
     "globals": "^15.13.0",
     "typescript-eslint": "^8.18.0"
-  }
+  },
+  "repository": "https://github.com/unknown015545/simple-rpc.git",
+  "author": "unknown015545 <104087625+unknown015545@users.noreply.github.com>"
 }
