@@ -32,7 +32,7 @@ Error Response:
 import { Router, handleReqeust } from 'simple-rpc'
 import { z } from 'zod'
 
-const router = new Router()
+const router = new Router({})
 
 router.addRoute("ping", () => "pong")
 router.addRoute("schemaTest", (request) => request.data, z.string())
